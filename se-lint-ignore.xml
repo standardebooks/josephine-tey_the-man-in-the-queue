@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-*.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>The name of a play referenced several times in the book is “Didn’t You Know?” so the question mark is part of the phrase and should be italicised.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
