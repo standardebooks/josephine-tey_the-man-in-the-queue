@@ -30,21 +30,28 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Man in the Queue</dc:title>
 		<meta property="file-as" refines="#title">Man in the Queue, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Police -- England -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Detective and mystery stories</dc:subject>
+		<dc:subject id="subject-3">Murder -- Investigation -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Grant, Alan (Fictitious character)</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008108887</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
+		<meta property="term" refines="#subject-2">sh85037260</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008107761</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh98006777</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
 		<dc:description id="description">When a man is stabbed while waiting in a theater queue, a police inspector finds the case consistently baffling.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Standing in line in a long queue for a show at a theater, a young man collapses. It quickly transpires that he has been stabbed in the back by an unknown person. Inspector Alan Grant of the Metropolitan Police is soon on the case, though it is deeply puzzling, not least because the identity of the victim is itself a mystery for a long while.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Man in the Queue&lt;/i&gt;, published in 1929, was the first of a series of successful detective novels written by the Scottish author Elizabeth MacKintosh under a pseudonym. First released under the name of “Gordon Daviot,” this novel was later attributed to “&lt;a href="https://standardebooks.org/ebooks/josephine-tey"&gt;Josephine Tey&lt;/a&gt;,” as were the subsequent novels in the series.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
-<dc:source>https://www.fadedpage.com/showbook.php?pid=20170614</dc:source>
-<dc:source>https://archive.org/details/maninqueue0000teyj_w3e0</dc:source>
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20170614</dc:source>
+		<dc:source>https://archive.org/details/maninqueue0000teyj_w3e0</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Man_in_the_Queue</meta>
@@ -64,8 +71,9 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">The Distributed Proofreaders Canada</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders Canada, The</meta>
-			<meta property="se:url.homepage" refines="#transcriber-2">http://www.pgdpcanada.net</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="se:url.homepage" refines="#transcriber-2">http://www.pgdpcanada.net</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://thegriggs.org/david/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
