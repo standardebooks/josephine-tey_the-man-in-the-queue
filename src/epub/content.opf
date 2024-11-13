@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/josephine-tey/the-man-in-the-queue</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-01-01T09:01:00Z</dc:date>
+		<meta property="dcterms:modified">2025-01-01T09:01:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -44,16 +44,19 @@
 		<meta property="term" refines="#subject-4">sh98006777</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">When a man is stabbed while waiting in a theater queue, a police inspector finds the case consistently baffling.</dc:description>
+		<meta id="collection-1" property="belongs-to-collection">Inspector Grant</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">1</meta>
+		<dc:description id="description">A police inspector is baffled by the case of a man who was stabbed while waiting in a theater queue.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Standing in line in a long queue for a show at a theater, a young man collapses. It quickly transpires that he has been stabbed in the back by an unknown person. Inspector Alan Grant of the Metropolitan Police is soon on the case, though it is deeply puzzling, not least because the identity of the victim is itself a mystery for a long while.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Man in the Queue&lt;/i&gt;, published in 1929, was the first of a series of successful detective novels written by the Scottish author Elizabeth MacKintosh under a pseudonym. First released under the name of “Gordon Daviot,” this novel was later attributed to “&lt;a href="https://standardebooks.org/ebooks/josephine-tey"&gt;Josephine Tey&lt;/a&gt;,” as were the subsequent novels in the series.&lt;/p&gt;
+			&lt;p&gt;Standing in line in a long queue for a show at a theater, a young man collapses—and it quickly becomes apparent that he has been stabbed in the back. Inspector Alan Grant of the Metropolitan Police is soon on the case, though he finds it deeply puzzling—not least because the identity of the victim is itself a mystery.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Man in the Queue&lt;/i&gt;, published in 1929, was the first in a series of successful detective novels written by the Scottish author Elizabeth MacKintosh writing under the pen name &lt;a href="https://standardebooks.org/ebooks/josephine-tey"&gt;Josephine Tey&lt;/a&gt;, though it was first published using the pseudonym “Gordon Daviot.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20170614</dc:source>
 		<dc:source>https://archive.org/details/maninqueue0000teyj_w3e0</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">82108</meta>
+		<meta property="se:reading-ease.flesch">73.27</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Man_in_the_Queue</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/josephine-tey_the-man-in-the-queue</meta>
 		<dc:creator id="author">Josephine Tey</dc:creator>
@@ -84,6 +87,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
