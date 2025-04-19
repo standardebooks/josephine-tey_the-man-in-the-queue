@@ -73,8 +73,8 @@
 		<dc:contributor id="transcriber-1">Alex White</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">White, Alex</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">The Distributed Proofreaders Canada</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders Canada, The</meta>
+		<dc:contributor id="transcriber-2">Distributed Proofreaders Canada</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders Canada</meta>
 		<meta property="se:url.homepage" refines="#transcriber-2">http://www.pgdpcanada.net</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
