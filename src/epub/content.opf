@@ -31,9 +31,9 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Man in the Queue</dc:title>
 		<meta property="file-as" refines="#title">Man in the Queue, The</meta>
-		<dc:subject id="subject-1">Police -- England -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Police--England--Fiction</dc:subject>
 		<dc:subject id="subject-2">Detective and mystery stories</dc:subject>
-		<dc:subject id="subject-3">Murder -- Investigation -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Murder--Investigation--Fiction</dc:subject>
 		<dc:subject id="subject-4">Grant, Alan (Fictitious character)</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008108887</meta>
