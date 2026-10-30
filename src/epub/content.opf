@@ -78,7 +78,7 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Distributed Proofreaders Canada</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders Canada</meta>
-		<link href="http://www.pgdpcanada.net/" refines="#transcriber-2" rel="schema:url"/>
+		<link href="https://www.pgdpcanada.net/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
